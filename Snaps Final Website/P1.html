@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+FILE NAME: P1.html
+WRITTEN BY: Aliea Nallbani
+DATE: 4/3/2022
+PURPOSE: CS220 final website
+-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Snaps</title>
+	<!--adds an icon at the browser tab-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="shortcut icon" href="./images/snapsIcon.png">
+	<link rel="stylesheet" href="styleSheet.css">
+</head>
+
+<body>
+	<!-- Nav bar -->
+	<section id="top">
+		<nav class="navbar navbar-light" role='navigation'>
+			<a class="navbar-brand" href="index.html" style="margin: 35px; padding: 0;">
+				<img src="./images/snapsIcon.png" width="40" height="40" alt="Snaps Icon">
+			</a>
+			<div id="menuToggle">
+				<input type="checkbox" />
+				<span></span>
+				<span></span>
+				<span></span>
+				<ul id="menu">
+					<a href="index.html">
+						<li>Home</li>
+					</a>
+					<li>User Analysis</li>
+					<a href="P2.html">
+						<li>Ideation</li>
+					</a>
+					<a href="P3.html">
+						<li>Low-Fidelity Prototype</li>
+					</a>
+					<a href="P4.html">
+						<li>Heuristic Testing</li>
+					</a>
+					<a href="P5.html">
+						<li>High-Fidelity Prototype</li>
+					</a>
+				</ul>
+			</div>
+		</nav>
+		<!-- Header-->
+		<div class="fade-in">
+			<div class="title" !important>
+				<h2>User Analysis</h2>
+			</div>
+			<a href="#top" class="top-button" role="button" aria-pressed="true"><img src="./images/up.png" style="text-align: center; 
+			padding-bottom: 15px; cursor: pointer; width: 55px;"></a>
+		</div>
+	</section>
+
+
+	<!-- Main content -->
+	<section id="scroll" style="background-color: #FFFFFF;" !important>
+		<div class="container px-5" style="padding-top: 30px; padding-bottom: 30px;">
+			<h3>Interviews Summary</h3>
+			<blockquote>All of our developers interviewed users with varying schedules and different mindfulness activities. This was accurate of our application which we wanted to provide a variety of choices for a variety of users.
+			</blockquote>
+			<h3>Users</h3>
+			<h6>User 1</h6>
+			<blockquote>This user was very busy with 5 schedules on top of being a member of the crew team. The interview was conducted as they worked on a page of a sticker book. It was interesting to speak with them because they were not stressed despite their busy schedule, rather they seemed to be focused on staying happy and trying to lose track of time as someone who needs to be hyper aware of it. A key statement from this interview was the user explaining that they participate in destressing or mindful activities if they are easily accessible and/or cheap. This was very helpful because this is a significant facet of our application and it was beneficial to hear that this is something that is in demand.</blockquote>
+			<h6>User 2</h6>
+			<blockquote>This user was instructed to do a drawing activity where they drew shapes and then filled in these shapes with patterns. Their schedule was typical with 4 classes and 2 student organizations, they like to destress by watching YouTube videos or calling their mother. It was intriguing that they mentioned their destressing activities also served as something to help them feel as if they accomplished something. This user also mentioned preferring a low stakes mindfulness app that doesn't require or ask for consistent engagement from the user.
+			</blockquote>
+			<h6>User 3</h6>
+			<blockquote>This user took part in a 5 senses activity where they took the time to acknowledge their 5 senses and see what they noticed. It was a little difficult for this user to get into the right headspace for this activity. In general, this user tries to incorporate mindfulness into their lives but it's difficult for them. Mindfulness activities feel good in the moment but feel like a waste of work time afterwards. This user said: "If I have time and I want to, I can but I want something I can integrate into my daily life."</blockquote>
+
+
+			<h3>Problems Identified</h3>
+			<ol>
+				<li> Users want to find apps that help with self-gratitude that are customizable and easy to use</li>
+				<li>Our users want a variety of options when it comes to self-gratitude activities</li>
+				<li>Overall – the problem is that users want an app that is minimal and easy to use and allows them to determine their level of structure, guidance, and what activity they would like to take part in</li>
+			</ol>
+
+
+			<h3>User Personas</h3>
+			<img src="./images/Persona 1.png" width="750" style="margin-left:150px; padding-top: 10px; padding-bottom: 35px;">
+			<img src="./images/Persona 2.png" width="750" style="margin-left:150px; padding-top: 10px; padding-bottom: 35px;">
+			<img src="./images/Persona 3.png" width="750" style="margin-left:150px; padding-top: 10px; padding-bottom: 35px;">
+			<h3>High-Level Tasks</h3>
+			<blockquote>From our interviews, we determined three high-level tasks we wanted to prioritize in our design:</blockquote>
+			<ol>
+				<li>Find a mindfulness activity to complete</li>
+				<img src="./images/HLT1.png" width="850" style="margin-left:55px; padding-top: 10px; padding-bottom: 35px;">
+				<li>Express your gratitude to yourself</li>
+				<img src="./images/HLT2.png" width="850" style="margin-left:55px; padding-top: 10px; padding-bottom: 35px;">
+				<li>Document how you are feeling today</li>
+				<img src="./images/HLT3.png" width="850" style="margin-left:55px; padding-top: 10px; padding-bottom: 35px;">
+			</ol>	
+		</div>
+	</div>
+</section>
+<!-- Footer-->
+<footer class="py-5 bg-black">
+	<div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Snaps Spring 2022</p></div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>

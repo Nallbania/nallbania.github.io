@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+FILE NAME: P4.html
+WRITTEN BY: Aliea Nallbani
+DATE: 4/6/2022
+PURPOSE: CS220 final website
+-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Snaps</title>
+	<!--adds an icon at the browser tab-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="shortcut icon" href="./images/snapsIcon.png">
+	<link rel="stylesheet" href="styleSheet.css">
+</head>
+
+<body>
+	<!-- Nav bar -->
+	<section id="top">
+		<nav class="navbar navbar-light" role='navigation'>
+			<a class="navbar-brand" href="index.html" style="margin: 35px; padding: 0;">
+				<img src="./images/snapsIcon.png" width="40" height="40" alt="">
+			</a>
+			<div id="menuToggle">
+				<input type="checkbox" />
+				<span></span>
+				<span></span>
+				<span></span>
+				<ul id="menu">
+					<a href="index.html">
+						<li>Home</li>
+					</a>
+					<a href="P1.html">
+						<li>User Analysis</li>
+					</a>
+					<a href="P2.html">
+						<li>Ideation</li>
+					</a>
+					<a href="P3.html">
+						<li>Low-Fidelity Prototype</li>
+					</a>
+					
+					<li>Heuristic Testing</li>
+
+					<a href="P5.html">
+						<li>High-Fidelity Prototype</li>
+					</a>
+				</ul>
+			</div>
+		</nav>
+		<!-- Header-->
+		<div class="fade-in">
+			<div class="title" !important>
+				<h2>Heuristic Testing</h2>
+			</div>
+			<a href="#top" class="top-button" role="button" aria-pressed="true"><img src="./images/up.png" style="text-align: center; 
+			padding-bottom: 15px; cursor: pointer; width: 55px;"></a>
+		</div>
+	</section>
+
+	
+	<!-- Main content -->
+	<section id="scroll" style="background-color: #FFFFFF;" !important>
+		<div class="container px-5" style="padding-top: 30px; padding-bottom: 30px;">
+			<h3>Overview</h3>
+			<blockquote>In our heuristic testing we had users complete the three tasks (as portrayed above) on our wireframe prototype. Overall, these tasks were very intuitive to users as we kept the design simple and easy to understand. This required incorporating common features found in other applications and websites like a hamburger bar, icons like a pencil to draw, etc. </blockquote>
+			<h3>Results</h3>
+			<blockquote>The biggest problem we encountered was our icon to access the gratitude journal, all three users took a few tries to correctly complete this task. In the post-task questionnaires we conducted we realized that the icon to access the journal is too similar to an email icon, so it looks like it's meant to send an email as opposed to writing a gratitude journal entry. A couple of users were also confused by the book icon at the bottom of the home page, this was intended to represent the carousel function of the regular journal. Users weren't quite sure if it was a button and what it did. <br> <br>Some positive feedback we received from these users was that the design was simple and welcoming, it didn't overwhelm them with information. Overall, they all seemed to appreciate the app's purpose and how it worked. </blockquote>
+			<h3>Future plans</h3>
+			<blockquote>Moving forward, we took these tests into consideration and looked at our design to see how it could be improved. In order to make our app more user friendly, we needed to make the screens more consistent in terms of arrows to revert on each page and simplifying certain aspects of the app. With the carousel button at the bottom of the home page and the hamburger menu, we had two ways to access the same journal which proved to be confusing to users. Our email icon to access the gratitude journal also didn't make sense with its intended purpose. In order to correct this we removed the carousel button to the next prototype and changed the email icon to something a lot more intuitive. 
+			</blockquote>
+
+		</div>
+	</section>
+	<!-- Footer-->
+	<footer class="py-5 bg-black">
+		<div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Snaps Spring 2022</p></div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- Bootstrap core JS-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- Core theme JS-->
+	<script src="js/scripts.js"></script>
+</body>

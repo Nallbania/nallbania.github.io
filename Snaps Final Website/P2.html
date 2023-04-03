@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+FILE NAME: P2.html
+WRITTEN BY: Aliea Nallbani
+DATE: 4/3/2022
+PURPOSE: CS220 final website
+-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Snaps</title>
+	<!--adds an icon at the browser tab-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="shortcut icon" href="./images/snapsIcon.png">
+	<link rel="stylesheet" href="styleSheet.css">
+</head>
+
+<body>
+	<!-- Nav bar -->
+	<section id="top">
+		<nav class="navbar navbar-light" role='navigation'>
+			<a class="navbar-brand" href="index.html" style="margin: 35px; padding: 0;">
+				<img src="./images/snapsIcon.png" width="40" height="40" alt="">
+			</a>
+			<div id="menuToggle">
+				<input type="checkbox" />
+				<span></span>
+				<span></span>
+				<span></span>
+				<ul id="menu">
+					<a href="index.html">
+						<li>Home</li>
+					</a>
+					<a href="P1.html">
+						<li>User Analysis</li>
+					</a>
+					<li>Ideation</li>
+
+					<a href="P3.html">
+						<li>Low-Fidelity Prototype</li>
+					</a>
+					<a href="P4.html">
+						<li>Heuristic Testing</li>
+					</a>
+					<a href="P5.html">
+						<li>High-Fidelity Prototype</li>
+					</a>
+				</ul>
+			</div>
+		</nav>
+		<!-- Header-->
+		<div class="fade-in">
+			<div class="title" !important>
+				<h2>Ideation</h2>
+			</div>
+			<a href="#top" class="top-button" role="button" aria-pressed="true"><img src="./images/up.png" style="text-align: center; 
+			padding-bottom: 15px; cursor: pointer; width: 55px;"></a>
+		</div>
+	</section>
+
+	
+	<!-- Main content -->
+	<section id="scroll" style="background-color: #FFFFFF;" !important>
+		<div class="container px-5" style="padding-top: 30px; padding-bottom: 30px;">
+			<h3>Scenarios</h3>
+			<blockquote>From our task analysis, we developed three distinct scenarios, or realistic stories, that described the ways the task(s) would be supported by the application we develop</blockquote>
+			<h6>Scenario 1</h6>
+			<blockquote>Sophia, 21, is a student at Wellesley College majoring in Biochemistry. She maintains a very busy schedule as she maintains a leadership position in two clubs and has a heavy course load. She tries to incorporate mindfulness on a daily basis through meditation or yoga, but she feels as if this time takes away from her productive hours in the day. To combat this feeling of being unproductive, Sophia has taken to using the mood tracking feature on the Snaps application. With this feature, Sophia has been recording her daily moods for a couple of months now. She is able to see her past moods and see how the quality of her days have progressed throughout the year. This is meaningful to her because she can see the effects of her mindfulness and take a moment to wind down and reflect on her emotions.
+			</blockquote>
+			<h6>Scenario 2</h6>
+			<blockquote>Emma, 18, is a student at Wellesley College majoring in Neuroscience in addition to being pre-med. As a person with an overactive mind and body, Emma likes to partake in Crew and activities that engage her mind such as an exciting TV show or movie. Unfortunately, Emma has wanted to participate in mindful activities but she finds that she does not have access to the types of activities that would engage her. Meditation and body scans aren't stimulating enough for Emma to practice self-gratitude effectively, she feels as if they are ineffective for her because she focuses on whether or not she's doing a good job at being mindful as opposed to focusing on being mindful. Since discovering the Snaps application, Emma can now access the types of activities that allow her to practice her own form of mindfulness. These include coloring by number, an online sticker book, and even a journal to reflect on her days. Since it's on her phone and the app is free, Emma happily takes advantage of this resource to be mindful in the ways that work for her.
+			</blockquote>
+			<h6>Scenario 3</h6>
+			<blockquote>Grace, 19 is a student at Wellesley College majoring in Sociology. They have a normal four-class schedule and like to participate in Pentimento and The Wellesley Review. While they do not have an overly-stressful schedule, they still like to reflect and practice gratitude. They find themselves gravitating towards mindfulness activities when they want to center their mind. However, it is difficult for Grace to motivate herself to practice mindfulness and frequently finds typical gratitude journals boring after about a month. Since discovering the Snaps application, Grace is able to access a plethora of mindfulness activities all in a low-stakes application. Furthermore, she even wants to keep using the app to track her mood and receive gratitude notes she wrote to herself. Overall, because the app is easy to use and accessible, Grace likes to utilize it to express more gratitude in her life and enjoys looking back at the progress they’ve made.
+			</blockquote>
+
+
+
+			<h3>Design Direction</h3>
+			<blockquote>Furthermore, we developed two distinct preliminary paper prototypes for our user interface. These designs both prioritized meeting the needs outlined in our scenarios, but presented the solution in different layouts.</blockquote>
+			<h6>Design 1</h6>
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="  margin-left: auto;
+			margin-right: auto; center; width: 700px; height: 500px; background-color: rgba(194, 206, 251, 0.6); border-radius: 12px ;" !important>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block" src="./images/D1.1.png" alt="First slide" style="width: 10px; display: block;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 20px;
+					width: 40%;">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block" src="./images/D1.2.png" alt="Second slide" style="width: 10px; display: block;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 20px;
+					width: 40%;">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block" src="./images/D1.3.png" alt="Third slide" style="width: 10px; display: block;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 20px;
+					width: 40%;">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block" src="./images/D1.4.png" alt="Fourth slide" style="width: 10px; display: block;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 20px;
+					width: 40%;">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block" src="./images/D1.5.png" alt="Fifth slide" style="width: 10px; display: block;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 20px;
+					width: 40%;">
+				</div>
+				<div class="carousel-item">
+					<img class="d-block" src="./images/D1.6.png" alt="Sixth slide" style="width: 10px; display: block;
+					margin-left: auto;
+					margin-right: auto;
+					margin-top: 20px;
+					width: 40%;">
+				</div>
+
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+		<h6>Design 2</h6>
+		<div id="carouselExampleControls2" class="carousel slide" data-ride="carousel" style="  margin-left: auto;
+		margin-right: auto; center; width: 700px; height: 550px; background-color: rgba(194, 206, 251, 0.6); border-radius: 12px ;" !important>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img class="d-block" src="./images/D2.1.png" alt="First slide" style="width: 10px; display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 20px;
+				width: 40%;">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block" src="./images/D2.2.png" alt="Second slide" style="width: 10px; display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 20px;
+				width: 40%;">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block" src="./images/D2.3.png" alt="Third slide" style="width: 10px; display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 20px;
+				width: 40%;">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block" src="./images/D2.4.png" alt="Fourth slide" style="width: 10px; display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 20px;
+				width: 40%;">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block" src="./images/D2.5.png" alt="Fifth slide" style="width: 10px; display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 20px;
+				width: 40%;">
+			</div>
+			<div class="carousel-item">
+				<img class="d-block" src="./images/D2.6.png" alt="Sixth slide" style="width: 10px; display: block;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 20px;
+				width: 40%;">
+			</div>
+
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+	<h3>Design Takeaways</h3>
+	<blockquote>After presenting both designs to our classmates, based on their feedback, we ultimately chose Design 2 for its clean, minimal, and customizable layout. The two main concerns going forward with this design were further developing function to send yourself a message from the past and improving the learnability of the mood tracker feature. Overall, however, people liked the simplicity of Design 2 and enjoyed its bullet-journal metaphor.</blockquote>
+</div>
+</div>
+</section>
+<!-- Footer-->
+<footer class="py-5 bg-black">
+	<div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; Snaps Spring 2022</p></div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
